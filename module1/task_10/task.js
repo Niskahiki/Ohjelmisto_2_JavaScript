@@ -29,5 +29,5 @@ if (isNaN(clientCountOfDice)) {
 
     const possibility = (timesBeingAsInterest / 10_000) * 100;
 
-    resultElement.textContent = `Probability to get sum ${clientWantedNumber} with ${clientCountOfDice} dice is ${possibility.toFixed()}%`;
+    resultElement.textContent = `Probability to get sum ${clientWantedNumber} with ${clientCountOfDice} dice is ${possibility.toFixed(2)}%`;
 }
